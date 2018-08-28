@@ -17,7 +17,7 @@ static BOOL crashProcessingDelayFinished = NO;
 {
     BOOL sendAutomatically = [self.commandDelegate.settings
                               cordovaBoolSettingForKey:@"APPCENTER_CRASHES_ALWAYS_SEND"
-                              defaultValue:YES];
+                              defaultValue:NO];
 
     [AppCenterShared configureWithSettings:self.commandDelegate.settings];
 
