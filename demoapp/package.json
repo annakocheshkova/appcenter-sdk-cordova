@@ -4,17 +4,16 @@
   "displayName": "HelloCordova",
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-file": {},
-      "cordova-plugin-camera": {},
-      "cordova-plugin-appcenter-shared": {},
       "cordova-plugin-appcenter-analytics": {},
       "cordova-plugin-appcenter-crashes": {},
-      "cordova-plugin-appcenter-push": {}
+      "cordova-plugin-appcenter-push": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-camera": {}
     }
   },
   "dependencies": {
